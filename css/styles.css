@@ -616,6 +616,8 @@ button {
   width: 370px;
   margin-top: 0;
   margin-right: 0;
+
+  transition: var(--transition-box-shadow);
 }
 .navigation-portfol:hover,
 .navigation-portfol:focus {
