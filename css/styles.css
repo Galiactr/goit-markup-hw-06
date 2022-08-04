@@ -437,11 +437,6 @@ button {
   color: var(--wight-text);
   background-color: var(--button-color);
 }
-.social-network-link:hover .icons-social-network,
-.social-network-link:focus .icons-social-network {
-  fill: var(--wight-text);
-}
-
 /* Клиенты */
 
 .clients-title {
