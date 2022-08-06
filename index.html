@@ -490,45 +490,47 @@
             </button>
             <form name="order-form" autocomplete="on" class="order-form js-speaker-form">
               <h3 class="oder-title">Залиште свої дані, ми вам передзвонимо</h3>
+
               <!-- Name -->
+
               <div class="form-field">
-              <label for="name" class="form-field-label">Ім'я</label>
-              <div class="div-form">
-               <input id="name" type="text" name="name" class="form-field-input" required>
-               <svg width="18" height="18" class="form-field-icon">
-               <use href="./images/svg/icomoon_6/symbol-defs.svg#icon-BlackMan"></use>
-              </div>
+              <label for="name" class="form-field-label form-field__label">Ім'я</label>
+              <div class="form-field__wrapper">
+               <input id="name" type="text" name="name" class="form-field-input form-field__input" required>
+               <svg width="18" height="18" class="form-field-icon form-field__icon">
+               <use href="./images/svg/icomoon_6/symbol-defs.svg#icon-BlackMan"></use>              
               </svg>
+              </div>
               </div>
 
               <!-- PHONE NUMBER -->    
 
               <div class="form-field">
-              <label for="tel" class="form-field-label">Телефон</label>
-              <div class="div-form">
-               <input id="tel" type="text" name="tel" class="form-field-input" required>
-               <svg width="18" height="18" class="form-field-icon">
+              <label for="tel" class="form-field-label form-field__label">Телефон</label>
+              <div class="form-field__wrapper">
+               <input id="tel" type="text" name="tel" class="form-field-input form-field__input" required>
+               <svg width="18" height="18" class="form-field-icon form-field__icon">
                <use href="./images/svg/icomoon_6/symbol-defs.svg#icon-Vector_"></use> 
-              </div>
-              </svg>
+               </svg>
+              </div>             
               </div>
 
               <!-- E-mail -->
 
                <div class="form-field">
-              <label for="mail" class="form-field-label">Пошта</label>
-               <div class="div-form">
-              <input id="mail" type="text" name="mail" class="form-field-input" required>
-               <svg width="18" height="18" class="form-field-icon">
+              <label for="mail" class="form-field-label form-field__label">Пошта</label>
+               <div class="form-field__wrapper">
+              <input id="mail" type="text" name="mail" class="form-field-input form-field__input" required>
+               <svg width="18" height="18" class="form-field-icon form-field__icon">
                <use href="./images/svg/icomoon_7/symbol-defs.svg#Convert"></use>
-              </div>
-              </svg>
+             </svg>
+              </div>              
               </div>
 
               <!-- Comments -->
 
               <div class="form-field order-form-form-field">
-                    <label for="comments" class="form-field-label">Коментар</label>
+                    <label for="comments" class="form-field-label form-field__label">Коментар</label>
                     <textarea id="comments" placeholder="Введіть текст" class="form-field-comments"></textarea>
                 </div>
 
@@ -536,14 +538,14 @@
 
                <div class="checkbox">
                     <label class="checkbox-label">
-                      <div class="div-form">
+                      <div class="label-form">
                         <input type="checkbox" name="contract-conditions" value="agree"
                             class="checkbox-wrapper-checkbox">
                         <span class="checkbox-icon"></span>
                         <svg width="16" height="15" class="checkbox-icon checkbox-icon--checked">
                             <use href="./images/svg/icomoon_6/symbol-defs.svg#icon-Vector_1"></use>
-                        </div>
-                          </svg>
+                        </svg>
+                          </div>                          
                         Погоджуюся з розсилкою та приймаю&nbsp;<a href="" class="checkbox-link">Умови
                             договору</a>
                     </label>

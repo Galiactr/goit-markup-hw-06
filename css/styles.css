@@ -894,7 +894,9 @@ button {
 	color: var(--text-title-color);
 }
 
-.form-field-label {
+/* Name */
+
+.form-field__label {
 	display: block;
 	margin-bottom: 4px;
 
@@ -905,12 +907,12 @@ button {
 	color: #757575;
 }
 
-.div-form {
+.form-field__wrapper{
 	position: relative;
 	margin-bottom: 10px;
 }
 
-.form-field-input {
+.form-field__input {
 	padding-left: 42px;
 	padding-right: 15px;
 
@@ -927,11 +929,11 @@ button {
 }
 
 .form-field-comments:focus,
-.form-field-input:focus {
+.form-field__input:focus {
 	border: 1px solid var(--button-color);
 }
 
-.form-field-icon {
+.form-field__icon {
 	position: absolute;
 	top: 50%;
 	left: 12px;
@@ -941,7 +943,7 @@ button {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field-input:focus + .form-field-icon {
+.form-field__input:focus + .form-field-icon {
 	fill: var(--button-color);
 }
 
