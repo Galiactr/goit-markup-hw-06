@@ -912,10 +912,11 @@ button {
 	transition: var(--transition-border);
 }
 
-.form-field__input:focus {
+.form-field__input:focus,
+.form-field__input:focus-within {
   border: 1px solid var(--button-color);
-  border-color: var(--button-color);
-}
+  outline: var(--button-color);
+  }
 
 .form-field__icon {
 	position: absolute;
@@ -950,8 +951,10 @@ button {
 	border-radius: 4px;
 	transition: var(--transition-border);
 }
-.form-field__commentary:focus  {
+.form-field__commentary:focus,
+.form-field__commentary:focus-within {
 	border: 1px solid var(--button-color);
+  outline: var(--button-color);
   }
 .form-field__commentary::placeholder {
 	font-size: 12px;
