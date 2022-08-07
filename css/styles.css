@@ -864,10 +864,7 @@ button {
 }
 /* <!-- Форма заказа --> */
  
-/* .form-field {
-
-} */
-.order-title {
+.order-form__title {
 	margin-bottom: 12px;
   
 	font-weight: 700;
