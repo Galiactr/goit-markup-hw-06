@@ -828,7 +828,6 @@ button {
   opacity: 0;
   pointer-events: none;
 }
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -839,7 +838,7 @@ button {
 
   opacity: 1;
   transition: opacity var(--transition-modal),
-    visibility var(--transition-modal);
+  visibility var(--transition-modal);
 
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -888,7 +887,7 @@ button {
 .icon-close {
   fill: currentColor;
 }
- /* ORDER-FORM */
+/* <!-- Форма заказа --> */
  
 .order-title {
 	margin-bottom: 12px;
@@ -1044,13 +1043,15 @@ button {
 	color: var(--button-color);
 }
 
-.order-form-button {
+/* <!-- Кнопка  --> */
+
+.order-form__btn-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.order-button {
+.order-form__btn {
 	padding: 10px 52px;
 
 	font-weight: 700;
@@ -1067,8 +1068,8 @@ button {
 	cursor: pointer;
 }
 
-.order-button:hover,
-.order-button:focus {
+.order-form__btn:hover,
+.order-form__btn:focus {
 	background-color: var(--button-color);
 }
 
