@@ -489,31 +489,6 @@ button {
   color: var(--button-color);
 }
 
-/* Портфолио */
-
-/* .header.portfolio {
-  margin-bottom: 94px;
-}
-.link-portfolio {
-  color: var(--button-color);
-}
-.email-portfolio {
-  color: var(--text-color);
-  text-decoration: none;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.1;
-}
-.email-portfolio:hover {
-  color: var(--button-color);
-} */
-/* Портфолио список*/
-
-/* .portfolio {
-  margin-bottom: 94px;
-  margin-top: 0;
-} */
-
 /* <!-- Портфолио  --> */
 
 .filter {
@@ -889,6 +864,9 @@ button {
 }
 /* <!-- Форма заказа --> */
  
+/* .form-field {
+
+} */
 .order-title {
 	margin-bottom: 12px;
   
@@ -934,9 +912,9 @@ button {
 	transition: var(--transition-border);
 }
 
-.form-field__commentary:focus,
 .form-field__input:focus {
-	border: 1px solid var(--button-color);
+  border: 1px solid var(--button-color);
+  border-color: var(--button-color);
 }
 
 .form-field__icon {
@@ -972,7 +950,9 @@ button {
 	border-radius: 4px;
 	transition: var(--transition-border);
 }
-
+.form-field__commentary:focus  {
+	border: 1px solid var(--button-color);
+  }
 .form-field__commentary::placeholder {
 	font-size: 12px;
 	line-height: 14px;
