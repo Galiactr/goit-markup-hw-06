@@ -428,14 +428,14 @@ button {
 
   color: var(--primary-icon-color);
 }
-.social-networks__icon {
+.social-networks__icons {
   display: flex;
   fill: currentColor;
 
   width: 20px;
   height: 20px;
 }
-.social-networks__icon:hover {
+.social-networks__icons:hover {
   color: var(--wight-text);
 }
 .social-networks__link:hover,
