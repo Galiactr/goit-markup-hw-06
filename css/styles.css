@@ -101,7 +101,7 @@ button {
   margin-bottom: 0;
   margin-right: 93px;
 }
-.logo__accent {
+.page-header-logo__accent {
   color: var(--text-title-color);
 }
 .site-nav {
